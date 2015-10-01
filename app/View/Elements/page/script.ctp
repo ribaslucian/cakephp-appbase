@@ -21,19 +21,6 @@ if (AuthComponent::user('id')) {
             // 'lib/local_filter',
             // 'lib/cart',
     ));
-
-    # Atribuir JS's de gráfico apenas na página inicial.
-    if ($this->name == 'Management') {
-        echo $this->Html->script(array(
-            '../jqplot/jquery.jqplot.min',
-            '../jqplot/plugins/jqplot.categoryAxisRenderer.min',
-            '../jqplot/plugins/jqplot.highlighter.min',
-            '../jqplot/plugins/jqplot.canvasTextRenderer.min',
-            '../jqplot/plugins/jqplot.canvasAxisTickRenderer.min',
-            '../jqplot/plugins/jqplot.barRenderer.min',
-            '../jqplot/plugins/jqplot.pointLabels.min',
-        ));
-    }
 }
 
 echo $this->Html->script(array(
