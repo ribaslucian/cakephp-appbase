@@ -1,0 +1,2 @@
+2015-10-01 10:49:53 Table_listener_users: {"event":"update","user_id":7,"data":{"id":"7","birthday":"12\/05\/1994","password":"wcpbv","password_confirm":"wcpbv"}}
+2015-10-01 11:13:09 Table_listener_users: {"event":"insert","user_id":"unauthorized","data":{"email":"root@email.com","password":"root","enable":true,"hierarchy":"admin","id":"1"}}

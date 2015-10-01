@@ -1,0 +1,36 @@
+.menu.inverted { background-color: #111 !important; }
+.menu * { font-size: 14px !important; }
+.menu .item { padding-top: 16px !important; padding-bottom: 16px !important; }
+.last.item:last-child { left: -4px; position: relative; }
+.menu .dropdown .item { font-weight: 500 !important; font-size: 80% !important; margin-right: 40px !important; }
+
+/*
+
+  BG     Font
+
+eeffe7  5cb85c  verde
+fffbe6  7d6c00  laranja
+f9f9f9  777777  cinza
+d9edf7  31708f  azul
+fff0f0  943331  vermelho
+*/
+
+.color.green { color: #5cb85c !important; }
+.color.orange { color: #7d6c00 !important; }
+.color.gray { color: #777777 !important; }
+.color.blue { color: #31708f !important; }
+.color.red { color: #943331 !important; }
+.color.purple { color: #6f699b !important; }
+.color.teal { color: #00b5ad !important; }
+
+/*
+.issuer.color { background-color: #; };
+.holder.color { background-color: #; };
+.seller.color { background-color: #; };
+.benefit.color { background-color: #; };
+.card.color { background-color: #; };
+.transaction.color { background-color: #; };
+.invoice.color { background-color: #; };
+.recharge.color { background-color: #; };
+.protocol.color { background-color: #; };
+*/

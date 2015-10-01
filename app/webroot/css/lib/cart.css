@@ -1,0 +1,69 @@
+.js_id_cart {
+    bottom: 0px;
+    width: 100%;
+    position: fixed !important;
+    border-top: 1px solid #fff;
+    background: #fffde2 !important;
+    padding-left: 40px;
+
+    /** 
+     * @Overwrite
+     *
+     * sobreescreve uma classe do semantic-iu  presente no elemento 
+     * '.ui.icon.buttons.basic.small' que cria uma margin abaixo do
+     * container de produtor
+     */
+    bottom: -9px;
+}
+
+/** 
+* @Overwrite
+*
+* Após empurrar a div dos elementos pra baixo, precimos 
+* retornar apenas seu conteúdo para cima.
+* 
+* i. Remova os dois @Overwrite e perceba o efeito
+*    no elemento '.cart.products.container'
+*/
+.js_id_cart_product {
+    position: relative;
+    /*top: -4px;*/
+    margin: 0 4px !important;
+}
+
+.js_id_cart_products {
+    /*        overflow-x: auto !important;
+            max-width: 100px !important;*/
+}
+
+.js_id_cart_label {
+    margin-top: 2px;
+    font-size: 120%;
+    color: #777;
+    border-right: 1px solid #eee;
+    padding-left: 0px !important;
+}
+
+.js_id_cart_product_counter {
+    background-color: #eee; padding: 2px 6px;
+}
+
+/* blocos */
+.js_id_cart .block {
+    float: left;
+    display: table;
+    padding: 15px 2px;
+    margin-left: -1px;
+}
+
+.js_id_cart .block.large {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.js_id_cart .block.last {
+    border-left: 1px solid #eee;
+}.js_id_cart .block.last .button {
+    margin-top: -2px !important;
+}
+

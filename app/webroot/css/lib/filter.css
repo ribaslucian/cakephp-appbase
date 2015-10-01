@@ -1,0 +1,11 @@
+.filter .active.text,
+.filter .option.item { color: #666 !important; }
+.filter label { margin-top: 7px !important; }
+.basic.input { width: 270px !important; }
+.filter .active.text { margin-bottom: 3px; font-size: 80%; font-style: italic;  }
+.filter .option.item { font-size: 90% !important; }
+.filter .icon.dropdown { margin: 0 !important; }
+.filter [name] { display: none; }
+.ui.form.small .input { height: 30px !important; }
+.filter .field.date input { width: 90px !important; }
+.filter .icon.question { margin-top: 9px; margin-left: 2px; }
